@@ -1,0 +1,81 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta name="theme-color" content="#fffaf5">
+  <meta name="description" content="See what's baking today at The Daily Crumb: pastries, cakes, cookies, and coffee.">
+  <title>Menu | The Daily Crumb</title>
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=DM+Sans:wght@400;500;600;700&family=Playfair+Display:wght@500;600;700&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="styles.css">
+  <script src="script.js" defer></script>
+</head>
+<body>
+  <div class="interaction-layer" aria-hidden="true"><span class="pointer-glow"></span></div>
+  <header class="site-header">
+    <a class="wordmark" href="index.html" aria-label="The Daily Crumb home">the daily <span>crumb</span><i>.</i></a>
+    <nav class="main-nav" aria-label="Main navigation">
+      <a href="index.html">Home</a>
+      <a class="active" href="menu.html" aria-current="page">Menu</a>
+      <a href="location.html">Location</a>
+    </nav>
+    <a class="button button-small" href="#order">Order now <span aria-hidden="true">↗</span></a>
+  </header>
+
+  <main>
+    <section class="page-intro page-wrap">
+      <p class="eyebrow"><span class="eyebrow-line"></span> A menu made with care</p>
+      <h1>Good things<br>are <em>baking.</em></h1>
+      <p>Everything is made in small batches, by hand, and with the good butter. Our case changes with the seasons, so there's always a reason to look twice.</p>
+      <span class="intro-mark" aria-hidden="true">✳</span>
+    </section>
+
+    <section class="menu-section page-wrap">
+      <div class="menu-category-heading"><p class="eyebrow">01 / Morning favorites</p><h2>Pastries</h2><span>Best enjoyed warm</span></div>
+      <div class="menu-list">
+        <article class="menu-row"><div><h3>Butter croissant</h3><p>Classic, golden, impossibly flaky</p></div><span class="menu-price">$4</span></article>
+        <article class="menu-row"><div><h3>Almond croissant</h3><p>Filled with almond cream, finished with toasted almonds</p></div><span class="menu-price">$5.5</span></article>
+        <article class="menu-row"><div><h3>Morning bun</h3><p>Orange zest, cinnamon sugar, a little sunshine</p></div><span class="menu-price">$5</span></article>
+        <article class="menu-row"><div><h3>Seasonal danish</h3><p>Flaky pastry with whatever fruit is lovely right now</p></div><span class="menu-price">$5.5</span></article>
+      </div>
+    </section>
+
+    <section class="menu-section menu-section-tint">
+      <div class="page-wrap menu-category-wrap">
+        <div class="menu-category-heading"><p class="eyebrow">02 / For the sweet tooth</p><h2>Cakes &amp; cookies</h2><span>A little celebration, any day</span></div>
+        <div class="menu-list">
+          <article class="menu-row"><div><h3>Vanilla cloud cupcake</h3><p>Vanilla cake, whipped buttercream</p></div><span class="menu-price">$4.5</span></article>
+          <article class="menu-row"><div><h3>Chocolate chunk cookie</h3><p>Brown butter dough, dark chocolate, flaky salt</p></div><span class="menu-price">$3.5</span></article>
+          <article class="menu-row"><div><h3>Lemon olive oil cake</h3><p>Tender crumb, bright lemon glaze</p></div><span class="menu-price">$6</span></article>
+          <article class="menu-row"><div><h3>Celebration cake</h3><p>Made to order; ask us about flavors and sizes</p></div><span class="menu-price">From $38</span></article>
+        </div>
+      </div>
+    </section>
+
+    <section class="menu-section page-wrap">
+      <div class="menu-category-heading"><p class="eyebrow">03 / A proper cup</p><h2>Drinks</h2><span>Good company for a pastry</span></div>
+      <div class="menu-list">
+        <article class="menu-row"><div><h3>Espresso</h3><p>Our house blend, pulled to order</p></div><span class="menu-price">$3</span></article>
+        <article class="menu-row"><div><h3>Flat white</h3><p>Double espresso, silky steamed milk</p></div><span class="menu-price">$4.5</span></article>
+        <article class="menu-row"><div><h3>Drip coffee</h3><p>Freshly brewed; ask about today's roast</p></div><span class="menu-price">$3.5</span></article>
+        <article class="menu-row"><div><h3>Seasonal iced tea</h3><p>House-steeped and served over ice</p></div><span class="menu-price">$4</span></article>
+      </div>
+    </section>
+
+    <section class="order-strip" id="order">
+      <div class="page-wrap order-inner">
+        <div><p class="eyebrow">For here or to go</p><h2>Save you a <em>seat?</em></h2><p>Come on in for a table, or stop by the counter to pick up something sweet. Online ordering is coming soon.</p></div>
+        <a class="button" href="location.html">Plan your visit <span aria-hidden="true">↗</span></a>
+      </div>
+    </section>
+  </main>
+
+  <footer class="site-footer page-wrap">
+    <a class="wordmark" href="index.html">the daily <span>crumb</span><i>.</i></a>
+    <p>Good days start with good pastry.</p>
+    <div class="footer-links"><a href="index.html">Home</a><a href="location.html">Location</a><span>© 2026 The Daily Crumb</span></div>
+  </footer>
+</body>
+</html>
